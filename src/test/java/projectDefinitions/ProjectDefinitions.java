@@ -20,7 +20,7 @@ public class ProjectDefinitions {
 
     @Given("I have also selected a <password>")
     public void i_have_also_selected_a_password()throws UnexpectedException {
-
+    System.out.println("Hej");
     }
 
     @When("I press sign up")
