@@ -4,20 +4,22 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
+import java.rmi.UnexpectedException;
+
 public class ProjectDefinitions {
 
     @Given("I have entered my <email>")
-    public void i_have_entered_my_email() {
+    public void i_have_entered_my_email() throws UnexpectedException {
 
     }
 
     @Given("I have also selected a <username>")
-    public void i_have_also_selected_a_username() {
+    public void i_have_also_selected_a_username()throws UnexpectedException {
 
     }
 
     @Given("I have also selected a <password>")
-    public void i_have_also_selected_a_password() {
+    public void i_have_also_selected_a_password()throws UnexpectedException {
 
     }
 
